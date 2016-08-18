@@ -5,6 +5,7 @@
 
 .body {
   font-family: Helvetica, sans-serif;
+  width: 600px;
 }
 
 .chatLog {
@@ -20,4 +21,38 @@
 
 .chatLog__itemMessage {
   margin-top: 0;
+}
+
+.chatMessage {
+  border: 2px solid grey;
+  border-radius: 4px;
+  height: 50px;
+}
+
+.chatMessage__message {
+  border: none;
+  /*
+  * minus (border width of parent * 2)
+  * height: 50 - (2 * 2)
+  */
+  height: 46px;
+  /*
+    width of parent minus one border minus button width?
+    ((600 - 4) - 50)
+  */
+  outline: none;
+  padding-left: 20px;
+  width: 546px;
+}
+
+.chatMessage__send {
+  background-color: lightblue;
+  border: none;
+  float: right;
+  height: 46px;
+  /*
+  * minus (border width of parent * 2)
+  * height: 50 - (2 * 2)
+  */
+  width: 50px;
 }
