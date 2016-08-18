@@ -48,8 +48,10 @@
 .chatMessage__send {
   background-color: lightblue;
   border: none;
+  cursor: pointer;
   float: right;
   height: 46px;
+  outline: none;
   /*
   * minus (border width of parent * 2)
   * height: 50 - (2 * 2)

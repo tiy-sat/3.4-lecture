@@ -11,7 +11,8 @@
       <h1>
         This is not a chat app nor a todo list
       </h1>
-      <ul class="chatLog">
+      <ul class="chatLog"
+          data-js="chatLog">
         <li class="chatLog__item">
             <h2 class="chatLog__itemUserName">
               Guest
@@ -27,11 +28,14 @@
         <input type="text"
                placeholder="write message here..."
                name="message"
-               class="chatMessage__message"/>
+               class="chatMessage__message"
+               data-js="chatMessage__message"/>
         <input type="submit"
                value="send"
                name="submit"
-               class="chatMessage__send"/>
+               class="chatMessage__send"
+               data-js="chatMessage__send"
+               />
       </form>
     </main>
 

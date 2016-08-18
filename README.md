@@ -13,5 +13,11 @@
     - [x] Submit button no border
     - [x] Submit button 50px width/height
     - [x] Width is 600px
-- [] As an organizer I would like to be able to click submit and see my message AND my username underneath INSIDE of the chat log
-  - [] Prevent default send
+- [x] As an organizer I would like to be able to click submit and see my message AND my username underneath INSIDE of the chat log
+  - [x] Stress that grammar is important
+  - [x] Include data attr to select el
+  - [x] Create click event listener
+  - [x] Prevent default send
+  - [x] Grab value from text input
+  - [x] Create template for messages
+  - [x] Append template to chat log
