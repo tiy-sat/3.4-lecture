@@ -18,6 +18,20 @@
   overflow: scroll;
 }
 
+.chatLog__itemDelete {
+  background: none;
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 25%;
+}
+
+.chatLog__item {
+  position: relative;
+}
+
+.
 .chatLog__itemUserName {
   font-size: 16px;
   margin-bottom: 0;
