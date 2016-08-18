@@ -21,3 +21,9 @@
   - [x] Grab value from text input
   - [x] Create template for messages
   - [x] Append template to chat log
+- [] Works better
+  - [x] Fixed height 600px
+  - [x] Overflow of scroll
+  - [x] Is in a circle!!!??!!?!???!
+  - [x] Round the number to first two
+  - [x] reset value of text input to nothing after send

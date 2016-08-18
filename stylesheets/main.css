@@ -5,13 +5,17 @@
 
 .body {
   font-family: Helvetica, sans-serif;
-  width: 600px;
 }
 
 .chatLog {
   border: 1px solid grey;
   list-style: none;
   padding: 40px 20px;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  overflow: scroll;
 }
 
 .chatLog__itemUserName {
@@ -27,6 +31,7 @@
   border: 2px solid grey;
   border-radius: 4px;
   height: 50px;
+  width: 500px;
 }
 
 .chatMessage__message {
@@ -38,11 +43,11 @@
   height: 46px;
   /*
     width of parent minus one border minus button width?
-    ((600 - 4) - 50)
+    ((500 - 4) - 50)
   */
   outline: none;
   padding-left: 20px;
-  width: 546px;
+  width: 446px;
 }
 
 .chatMessage__send {

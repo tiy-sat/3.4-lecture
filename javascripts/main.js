@@ -12,8 +12,11 @@ $(function(){
     e.preventDefault();
     // vanilla js: .value (as property)
     var $messageValue = $chatMessageMessageElement.val();
-    addMessage($messageValue, "Guest");
+    addMessage($messageValue, `Guest${(Math.random() * 100).toPrecision(2)}`);
+    $chatMessageMessageElement.val("");
   });
+
+  
 
   function addMessage(messageString, authorString){
     var template = `
