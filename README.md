@@ -30,3 +30,6 @@
 - [] Able to delete specific message
   - [x] As an organizer I can see a red "X" mark next to the messages (the right)
   - [] When I click the "x" mark the message should be removed from the list
+    - [x] Create listener for click event
+    - [x] Remove closest chat log item to clicked mark
+    - [] Add mark to template
