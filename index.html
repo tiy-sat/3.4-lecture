@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> FEE - Boilerplate </title>
+    <!-- Minimal Viable Product of your css -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+  </head>
+  <body class="body">
+    <main>
+      <h7>
+        This is not a chat app nor a todo list
+      </h7>
+      <ul class="chatLog"
+          data-js="chatLog">
+        <li class="chatLog__item"
+            data-js="chatLog__item">
+            <h2 class="chatLog__itemUserName">
+              Guest
+            </h2>
+            <mark class="chatLog__itemDelete"
+                  data-js="chatLog__itemDelete">
+              x
+            </mark>
+            <p class="chatLog__itemMessage">
+              Here is a sample message.
+            </p>
+
+        </li>
+      </ul>
+      <form class="chatMessage"
+            action="#"
+            method="POST">
+        <input type="text"
+               placeholder="write message here..."
+               name="message"
+               class="chatMessage__message"
+               data-js="chatMessage__message"/>
+        <input type="submit"
+               value="send"
+               name="submit"
+               class="chatMessage__send"
+               data-js="chatMessage__send"
+               />
+      </form>
+    </main>
+
+    <!-- Having my scripts loaded AFTER all of my content does a few things... -->
+    <!-- THIS DOES NOT ACCOMODATE FOR DOMCONTENTLOADED -->
+    <!-- This is for usability... Ensuring content has loaded (or at least started) before interaction layer -->
+    <script src="javascripts/jquery-3.1.0.js" charset="utf-8"></script>
+    <script src="javascripts/main.js" charset="utf-8"></script>
+  </body>
+</html>
